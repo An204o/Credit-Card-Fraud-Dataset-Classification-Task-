@@ -1,0 +1,3 @@
+This project focuses on detecting fraudulent credit card transactions using a logistic regression model on a real-world dataset from Kaggle. The dataset is highly imbalanced, so we preprocess it by handling missing values, scaling features with StandardScaler, and removing low-importance features based on model coefficients. The model is trained and evaluated using accuracy, F1-score, and a confusion matrix to capture both correct predictions and misclassifications of fraud cases. With an F1-score of 0.71, the model balances precision and recall, effectively identifying fraud while minimizing false positives and negatives.
+
+This is the link to the credit card dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
